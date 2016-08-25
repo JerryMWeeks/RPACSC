@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:type="TaskPaneApp">
+  <Id>0414837C-8DE6-4014-BF1E-D057FB195D0B</Id>
+  <Version>1.0</Version>
+  <ProviderName>CSC</ProviderName>
+  <DefaultLocale>EN-US</DefaultLocale>
+  <DisplayName DefaultValue="CSC Rapid Proposal Assembler"/>
+  <Description DefaultValue="CSC Rapid Proposal Assembly service live"/>
+  <IconUrl DefaultValue=
+    "https://cscportal.sharepoint.com/sites/cspdKnowledgeAssemblyPlatform/Shared%20Documents/RapidProposalAssemblerLive/Images/logo.png"/>
+  <Hosts>
+    <Host Name="Document"/>
+    <Host Name="Workbook"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://cscportal.sharepoint.com/sites/cspdKnowledgeAssemblyPlatform/Shared%20Documents/RapidProposalAssemblerLive/generated.aspx"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
